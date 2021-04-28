@@ -12,7 +12,7 @@ export default function Home() {
       <View style={styles.container}>
         <Text>Buttons</Text>
         <View style={{ width: "80%" }}>
-          <Button title="click Me" onPress={chickHandler} />
+          <Button title="click Me" onPress={clickHandler} />
         </View>
         <View style={{ width: "80%" }}>
           <Button title="Click Me" color="red" onPress={clickHandler} />
@@ -29,7 +29,7 @@ export default function Home() {
           color="red"
           textColor="white"
           title="TouchableOpacity"
-          onButtonPlaceCustomEventHandler={chickHandler}
+          onButtonPlaceCustomEventHandler={clickHandler}
         />
         <Text>Custom Buttons</Text>
       </View>

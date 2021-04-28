@@ -5,6 +5,7 @@ import {
   TouchableWithoutFeedback,
   View,
   StyleSheet,
+  Text,
 } from "react-native";
 
 const CustomButton = (props) => {

@@ -12,7 +12,7 @@ export default function App() {
     // <Calculator />
     // <UI />
     // <Home />
-    <HomePage1 />
-    // <HomePage2 />
+    // <HomePage1 />
+    <HomePage2 />
   );
 }
